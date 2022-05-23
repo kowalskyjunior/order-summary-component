@@ -1,0 +1,136 @@
+@media(max-width: 375px){
+
+*{
+    overflow: hidden;
+    margin: auto;
+}
+
+body{
+    font-size: 16px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+main{
+    min-width: 10px;
+    max-width: 500px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: auto;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 1 1 4px black;
+}
+
+.titulo {
+    color: hsl(223, 47%, 23%);
+    display: flex;
+    justify-content: center;
+    font-family:'Red Hat Display', sans-serif;
+    margin-top: 40px;
+    font-size: x-large;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    font-family:'Red Hat Display', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plano{
+    display: flex;
+    justify-content: center;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: small;
+    margin-top: -47px;
+    margin-right: 90px;
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+}
+
+.planoimg{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+}
+
+
+.plano-valor{
+    display: flex;
+    justify-content: center;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-right: 90px;
+    color: hsl(224, 23%, 55%);
+    font-weight: bolder;
+    
+}
+
+.mudar{
+    display: flex;
+    justify-content: center;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 12px;
+    margin-top: -26px;
+    margin-left: 240px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.back{
+    background-color: hsl(225, 100%, 98%);
+    margin: auto;
+    padding: 20px;
+    min-width: 30px;
+    max-width: 500px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1 1 4px black;
+}
+
+.btn{
+    width: 330px;
+    height: 50px;
+    font-weight: bold;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 30px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: white;
+    font-family:'Red Hat Display', sans-serif;
+    
+}
+
+.botao2{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn2{
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0px transparent;
+    border-radius: 10px;
+    color: hsl(245, 75%, 52%);
+    font-family:'Red Hat Display', sans-serif;
+}
+}
